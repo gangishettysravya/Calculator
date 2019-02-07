@@ -17,7 +17,7 @@ public class Calc{
 
 		switch(choice){
 			
-			case '1' : System.out.print("Enter Two Number : ");
+			case '1' : System.out.println("Enter Two Numbers : ");
 				   a = scan.nextFloat();
 				   b = scan.nextFloat();
 				   res = a+b;
@@ -26,6 +26,11 @@ public class Calc{
 			
 			case '2' : System.exit(0);
 				   break;
+			case '3' : System.out.println("Enter Two Numbers : ");
+				   a = scan.nextFloat();
+				   b = scan.nextFloat();
+				   res = a-b;
+				   System.out.print("Result = "+res);
 		
 			default : System.out.print("INVALID CHOICE!!!");
 				  break;
